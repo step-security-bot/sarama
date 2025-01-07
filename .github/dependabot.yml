@@ -95,3 +95,13 @@ updates:
       golang-org-x:
         patterns:
           - "golang.org/x/*"
+
+  - package-ecosystem: gomod
+    directory: /examples/http_server
+    schedule:
+      interval: daily
+
+  - package-ecosystem: gomod
+    directory: /examples/sasl_scram_client
+    schedule:
+      interval: daily
